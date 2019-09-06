@@ -1,0 +1,18 @@
+.sidebar {
+  width: 300px;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 50px);
+  justify-content: space-between;
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
+
+  .sidebar-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:hover {
+      background-color: $primary;
+    }
+  }
+}
